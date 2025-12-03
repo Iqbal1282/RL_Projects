@@ -6,3 +6,7 @@ from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.utils import set_random_seed 
 
 
+def make_env(env_id: str, rank: int, seed: int = 0): 
+
+    def _init():
+        pass 
