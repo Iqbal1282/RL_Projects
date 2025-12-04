@@ -31,5 +31,3 @@ if __name__ == "__main__":
         action, _states = model.predict(obs)
         obs, rewards, dones, info = vec_env.step(action)
         vec_env.render()
-
-       

@@ -1,3 +1,9 @@
 *.zip
 *.pt
 *.ckpt
+*/videos/*
+eval_logs/
+tmp/
+logs/ 
+
+
